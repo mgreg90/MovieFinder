@@ -7,8 +7,12 @@
   <body>
     <h1>MovieFinder Search Results</h1>
 
-    <h2><%= movie.title %></h2>
+    <form>
+      <input type = "search" name = "title">
+    </form>
 
-    <p><%= movie.plot %></p>
+    <h2><%= @movie.title %></h2>
+
+    <p><%= @movie.plot %></p>
   </body>
 </html>
